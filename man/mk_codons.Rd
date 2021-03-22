@@ -1,7 +1,7 @@
 \name{mk_codons}
 \alias{mk_codons}
 \title{
-%%  ~~function to do ... ~~
+generate codons based on DNA seq
 }
 \description{
 generating codens based on eighter a DNA or an RNA sequence based on a starting point in the sequence.
