@@ -29,12 +29,14 @@ Create random dna seq w length 47
 
 ```{r}
 dna = random_dna(l=47)
+dna
 ```
 
 Make codons from DNA seq w. starting point 1
 
 ```{r}
 codons = mk_codons(dna, s=1)
+codons
 ```
 
 Get aa seq
