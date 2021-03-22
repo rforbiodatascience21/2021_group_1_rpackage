@@ -14,10 +14,8 @@ random_dna(x)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{l}{
-%%     ~~Describe \code{x} here~~
 }
 }
-\details{
 
 \value{
 nucleotide seq of length l. 
