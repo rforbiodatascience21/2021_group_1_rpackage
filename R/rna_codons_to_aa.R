@@ -1,21 +1,21 @@
 # R/rna_codons_to_aa.R
 rna_codons_to_aa <- function(codons){
-  std_code_table <- c("TTT" = "F", "TCT" = "S", "TUT" = "Y", "TGT" = "C",
-                      "TTC" = "F", "TCC" = "S", "TUC" = "Y", "TGC" = "C",
-                      "TTU" = "L", "TCU" = "S", "TUU" = "*", "TGU" = "*",
-                      "TTG" = "L", "TCG" = "S", "TUG" = "*", "TGG" = "W",
-                      "CTT" = "L", "CCT" = "P", "CUT" = "H", "CGT" = "R",
-                      "CTC" = "L", "CCC" = "P", "CUC" = "H", "CGC" = "R",
-                      "CTU" = "L", "CCU" = "P", "CUU" = "Q", "CGU" = "R",
-                      "CTG" = "L", "CCG" = "P", "CUG" = "Q", "CGG" = "R",
-                      "UTT" = "I", "UCT" = "T", "UUT" = "N", "UGT" = "S",
-                      "UTC" = "I", "UCC" = "T", "UUC" = "N", "UGC" = "S",
-                      "UTU" = "I", "UCU" = "T", "UUU" = "K", "UGU" = "R",
-                      "UTG" = "M", "UCG" = "T", "UUG" = "K", "UGG" = "R",
-                      "GTT" = "V", "GCT" = "A", "GUT" = "D", "GGT" = "G",
-                      "GTC" = "V", "GCC" = "A", "GUC" = "D", "GGC" = "G",
-                      "GTU" = "V", "GCU" = "A", "GUU" = "E", "GGU" = "G",
-                      "GTG" = "V", "GCG" = "A", "GUG" = "E", "GGG" = "G")
+  std_code_table <- c("UUU" = "F", "UCU" = "S", "UAU" = "Y", "UGU" = "C",
+                      "UUC" = "F", "UCC" = "S", "UAC" = "Y", "UGC" = "C",
+                      "UUA" = "L", "UCA" = "S", "UAA" = "*", "UGA" = "*",
+                      "UUG" = "L", "UCG" = "S", "UAG" = "*", "UGG" = "W",
+                      "CUU" = "L", "CCU" = "P", "CAU" = "H", "CGU" = "R",
+                      "CUC" = "L", "CCC" = "P", "CAC" = "H", "CGC" = "R",
+                      "CUA" = "L", "CCA" = "P", "CAA" = "Q", "CGA" = "R",
+                      "CUG" = "L", "CCG" = "P", "CAG" = "Q", "CGG" = "R",
+                      "AUU" = "I", "ACU" = "T", "AAU" = "N", "AGU" = "S",
+                      "AUC" = "I", "ACC" = "T", "AAC" = "N", "AGC" = "S",
+                      "AUA" = "I", "ACA" = "T", "AAA" = "K", "AGA" = "R",
+                      "AUG" = "M", "ACG" = "T", "AAG" = "K", "AGG" = "R",
+                      "GUU" = "V", "GCU" = "A", "GAU" = "D", "GGU" = "G",
+                      "GUC" = "V", "GCC" = "A", "GAC" = "D", "GGC" = "G",
+                      "GUA" = "V", "GCA" = "A", "GAA" = "E", "GGA" = "G",
+                      "GUG" = "V", "GCG" = "A", "GAG" = "E", "GGG" = "G")
   aa <- paste0(std_code_table[codons], collapse = "")
   return(aa)
 }
