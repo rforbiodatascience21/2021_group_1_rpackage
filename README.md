@@ -60,3 +60,12 @@ paste('my new aa seq: ',aa)
 ```
 
     ## [1] "my new aa seq:  GGSVPLSM*KVQLNV"
+
+Create random rna seq w length 21
+
+``` r
+rna = random_rna(l=21)
+rna
+```
+
+    ## [1] "CGGGAAGAUCAAGUCUUCCAG"

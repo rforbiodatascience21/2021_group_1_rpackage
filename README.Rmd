@@ -46,5 +46,11 @@ aa = dna_codons_to_aa(codons)
 
 paste('my new aa seq: ',aa)
 ```
+Create random rna seq w length 21
+
+``` {r}
+rna = random_rna(l=21)
+rna
+```
 
 
