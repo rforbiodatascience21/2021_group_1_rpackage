@@ -2,10 +2,11 @@
 \alias{random_rna}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+create random rna seq
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+create random dna seq of size l using "A", "U", "G", "C". Input to function is 
+sequence length. 
 }
 \usage{
 random_rna(x)
@@ -13,11 +14,7 @@ random_rna(x)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{l}{
-%%     ~~Describe \code{x} here~~
 }
-}
-\details{
-%%  ~~ If necessary, more details than the description above ~~
 }
 \value{
 nucleotide sequence of length 1
